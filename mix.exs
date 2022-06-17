@@ -1,7 +1,7 @@
 defmodule ExPhoneNumber.Mixfile do
   use Mix.Project
 
-  @version "0.2.1"
+  @version "0.3.0"
 
   def project do
     [
@@ -27,7 +27,7 @@ defmodule ExPhoneNumber.Mixfile do
 
   defp deps do
     [
-      {:sweet_xml, "~> 0.6.5"},
+      {:sweet_xml, "~> 0.7"},
       {:ex_doc, "~> 0.18.0", only: :dev, runtime: false},
       {:ex_spec, "~> 2.0", only: :test},
       {:excoveralls, "~> 0.10", only: :test},
