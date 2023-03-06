@@ -4,8 +4,8 @@
 [![Module Version](https://img.shields.io/hexpm/v/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_phone_number/)
 [![Total Download](https://img.shields.io/hexpm/dt/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
-[![License](https://img.shields.io/hexpm/l/ex_phone_number.svg)](https://github.com/socialpaymentsbv/ex_phone_number/blob/develop/LICENSE.md)
-[![Last Updated](https://img.shields.io/github/last-commit/socialpaymentsbv/ex_phone_number.svg)](https://github.com/socialpaymentsbv/ex_phone_number/commits/develop)
+[![License](https://img.shields.io/hexpm/l/ex_phone_number.svg)](https://github.com/ex-phone-number/ex_phone_number/blob/master/LICENSE.md)
+[![Last Updated](https://img.shields.io/github/last-commit/ex-phone-number/ex_phone_number.svg)](https://github.com/ex-phone-number/ex_phone_number/commits/master)
 
 Elixir library for parsing, formatting, and validating international phone numbers.
 Based on Google's [libphonenumber](https://github.com/googlei18n/libphonenumber) (current metadata version: 8.10.2).
