@@ -81,6 +81,8 @@ iex> ExPhoneNumber.parse("+977123456789", "")
 
 ## Copyright and License
 
-Copyright (c) 2016-2021 NLCollect B.V.
+Copyright (c) 2023 ExPhoneNumber
+
+Copyright (c) 2016-2022 NLCollect B.V.
 
 The source code is licensed under [The MIT License (MIT)](LICENSE.md)
