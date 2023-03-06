@@ -1,6 +1,6 @@
 # ExPhoneNumber
 
-[![Build Status](https://travis-ci.org/socialpaymentsbv/ex_phone_number.svg?branch=develop)](https://travis-ci.org/socialpaymentsbv/ex_phone_number)
+[![CI](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/elixir.yml/badge.svg)](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/elixir.yml)
 [![Module Version](https://img.shields.io/hexpm/v/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_phone_number/)
 [![Total Download](https://img.shields.io/hexpm/dt/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
