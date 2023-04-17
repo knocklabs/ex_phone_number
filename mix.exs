@@ -1,7 +1,7 @@
 defmodule ExPhoneNumber.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/socialpaymentsbv/ex_phone_number"
+  @source_url "https://github.com/ex-phone-number/ex_phone_number"
   @version "0.3.0"
 
   def project do
@@ -9,11 +9,9 @@ defmodule ExPhoneNumber.Mixfile do
       app: :ex_phone_number,
       version: @version,
       name: "ExPhoneNumber",
-      elixir: "~> 1.4",
+      elixir: "~> 1.10",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
-      test_coverage: [tool: ExCoveralls],
-      preferred_cli_env: [coveralls: :test, "coveralls.travis": :test],
       deps: deps(),
       package: package(),
       description: description(),
@@ -28,16 +26,18 @@ defmodule ExPhoneNumber.Mixfile do
   defp deps do
     [
       {:sweet_xml, "~> 0.7"},
-      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:ex_spec, "~> 2.0", only: :test},
-      {:excoveralls, "~> 0.10", only: :test}
+      {:tesla, "~> 1.4", only: [:dev, :test]},
+      {:hackney, "~> 1.17", only: [:dev, :test]},
+      {:jason, ">= 1.0.0", only: [:dev, :test]}
     ]
   end
 
   defp description do
-    "A library for parsing, formatting, and validating international phone numbers. " <>
-      "Based on Google's libphonenumber."
+    """
+    A library for parsing, formatting, and validating international phone numbers. Based on Google's libphonenumber.
+    """
   end
 
   defp package do
@@ -45,7 +45,11 @@ defmodule ExPhoneNumber.Mixfile do
       files: ["lib", "config", "resources", "LICENSE*", "README*", "mix.exs"],
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
-      maintainers: ["Jose Miguel Rivero Bruno (@josemrb)", "Szymon Jeż (@szymon-jez)"],
+      maintainers: [
+        "Jose Miguel Rivero Bruno (@josemrb)",
+        "Szymon Jeż (@szymon-jez)",
+        "Kamil Kowalski (@kamilkowalski)"
+      ],
       name: :ex_phone_number
     ]
   end

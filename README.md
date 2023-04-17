@@ -1,14 +1,16 @@
 # ExPhoneNumber
 
-[![CI](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/elixir.yml/badge.svg)](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/elixir.yml)
+[![CI](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/build.yml/badge.svg)](https://github.com/ex-phone-number/ex_phone_number/actions/workflows/build.yml)
 [![Module Version](https://img.shields.io/hexpm/v/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_phone_number/)
-[![Total Download](https://img.shields.io/hexpm/dt/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
+[![Total Downloads](https://img.shields.io/hexpm/dt/ex_phone_number.svg)](https://hex.pm/packages/ex_phone_number)
 [![License](https://img.shields.io/hexpm/l/ex_phone_number.svg)](https://github.com/ex-phone-number/ex_phone_number/blob/master/LICENSE.md)
 [![Last Updated](https://img.shields.io/github/last-commit/ex-phone-number/ex_phone_number.svg)](https://github.com/ex-phone-number/ex_phone_number/commits/master)
 
 Elixir library for parsing, formatting, and validating international phone numbers.
-Based on Google's [libphonenumber](https://github.com/googlei18n/libphonenumber) (current metadata version: 8.10.2).
+Based on Google's [libphonenumber](https://github.com/googlei18n/libphonenumber).
+
+**Current metadata version: v8.13.8.**
 
 ## Installation
 
@@ -60,7 +62,7 @@ iex> ExPhoneNumber.format(phone_number, :rfc3966)
 "tel:+41-44-668-18-00"
 ```
 
-##  E164 Formatted Numbers
+## E164 Formatted Numbers
 
 In E164 formatted numbers the country code can be detected. So you can pass them in to `ExPhoneNumber.parse/2` with `""` or `nil` as the second argument.
 
@@ -78,6 +80,10 @@ iex> ExPhoneNumber.parse("+977123456789", "")
    raw_input: nil
  }}
 ```
+
+## Development
+
+There is a `mix update_metadata` task that downloads the latest `libphonenumber` metadata.
 
 ## Copyright and License
 
