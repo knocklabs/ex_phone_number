@@ -7,9 +7,11 @@ and this project aims to adhere to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [0.4.1] - 2023-04-24
+
 ### Fixed
 
-- Stop failing if Tesla is not in the depencencies
+- Stop failing if Tesla is not in the dependencies
 
 ## [0.4.0] - 2023-04-18
 
@@ -25,6 +27,7 @@ Require Elixir v1.10+.
 
 - Changed `sweet_xml` version requirement to `~> 0.7`
 
-[unreleased]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.3.0...HEAD
+[unreleased]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.1...HEAD
+[0.4.1]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.2.1...v0.3.0
