@@ -13,6 +13,8 @@ and this project aims to adhere to [Semantic Versioning](https://semver.org/spec
 
 ## [0.4.3] - 2023-08-25
 
+## [0.4.4] - 2024-03-09
+
 ### Changed
 
 - Updated metadata source file to v8.13.19
@@ -44,7 +46,8 @@ Require Elixir v1.10+.
 
 - Changed `sweet_xml` version requirement to `~> 0.7`
 
-[unreleased]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.3...HEAD
+[unreleased]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.4...HEAD
+[0.4.4]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.2...v0.4.4
 [0.4.3]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/ex-phone-number/ex_phone_number/compare/v0.4.0...v0.4.1
